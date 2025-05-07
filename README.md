@@ -1,48 +1,80 @@
-# OTTs Content Analysis
+# 🎥 OTTs Content Analysis
 ![ott_logo](https://github.com/saicharannetha/OTTs-Content-Analysis-/blob/main/rating.jpg)
 
-## Problem Statement: 
 
-**OTT Content Analysis Across Netflix, Amazon Prime Video, and Hotstar**
+## 🚀 Overview
 
-The data analysis solution provides insights into the content available on major OTT platforms, including Netflix, Amazon Prime, and Hotstar. The analysis will focus on content ratings, genres, and the distinction between movies and TV shows. Additionally, it will examine release trends by year and country to identify patterns and trends in content distribution across these platforms.
+This project presents a detailed **OTT Content Analytics Dashboard** using data from **Netflix**, **Amazon Prime Video**, and **Hotstar**. The analysis uncovers trends in **content ratings**, **genre preferences**, **release patterns**, and the **distribution between movies and TV shows**. By leveraging this data, stakeholders can gain strategic insights into platform content strategies and audience preferences.
 
-**Key Components & Features:**
+## 📅 Dataset
 
-1. **Content Rating Analysis:**
-   - Analyze the distribution of content ratings (e.g., G, PG, PG-13, R, etc.) across Netflix, Amazon Prime, and Hotstar.
-   - Compare the content rating distributions between platforms to understand their target audience demographics.
-   - Identify trends in content ratings over time and by country, and assess how these trends align with platform-specific strategies.
+The dataset used in this project includes the following key fields:
 
-2. **Genre Analysis:**
-   - Explore the genre distribution across each OTT platform, comparing the popularity of different genres (e.g., Drama, Comedy, Action, Thriller).
-   - Identify which genres are more prominent on each platform and how this reflects the platform’s content strategy.
-   - Analyze the evolution of genre popularity over time and across different regions or countries.
+- **Title**: Name of the content
+- **Platform**: Netflix, Amazon Prime, or Hotstar
+- **Type**: Movie or TV Show
+- **Genre**: Content category (Drama, Comedy, etc.)
+- **Rating**: Content maturity rating (G, PG, R, etc.)
+- **Country**: Origin of content
+- **Release Year**: Year the content was released
 
-3. **Movies vs. TV Shows:**
-   - Categorize content into movies and TV shows, and analyze the balance between these two categories on each platform.
-   - Visualize the proportion of movies versus TV shows available on each platform.
-   - Identify trends in the production and release of movies versus TV shows over time and by country.
+## 🛠 Features
 
-4. **Releases by Year:**
-   - Analyze the number of content releases (both movies and TV shows) by year across Netflix, Amazon Prime, and Hotstar.
-   - Visualize trends in content production and releases over the years to understand how these platforms have grown or shifted focus.
-   - Identify peak years for content releases and correlate them with platform expansions or major industry events.
+### 🧠 Key Analyses
 
-5. **Country-Specific Analysis:**
-   - Examine the geographical distribution of content on each platform, identifying the most prolific countries of origin.
-   - Analyze how the country of origin influences content ratings, genres, and the type of content (movies vs. TV shows).
-   - Compare the availability of local versus international content on each platform.
+1. **📊 Content Rating Distribution**
+   - Compare content ratings across all platforms
+   - Identify which platforms cater to family-friendly vs. mature audiences
+   - Track rating trends over time and across countries
 
-6. **Platform Comparison:**
-   - Conduct a comparative analysis of the content strategies of Netflix, Amazon Prime, and Hotstar based on ratings, genres, and release patterns.
-   - Identify unique strengths and niches of each platform in terms of content offerings.
-   - Explore how each platform tailors its content library to different regions and demographics.
+2. **🎭 Genre Analysis**
+   - Explore the popularity of genres on each OTT platform
+   - Compare genre distributions to infer platform strategy
+   - Detect shifts in genre trends across years and regions
 
-**Stakeholders:**
-- **Content Creators and Producers:** To understand the competitive landscape and identify gaps or opportunities in content production.
-- **OTT Platform Strategists:** To refine content acquisition and production strategies based on competitor analysis and audience preferences.
-- **Marketers:** To design targeted marketing campaigns that align with content trends and audience preferences on each platform.
-- **Data Analysts and Researchers:** To explore content trends, audience behavior, and regional preferences across OTT platforms.
+3. **🎞️ Movies vs. TV Shows**
+   - Visualize the ratio of movies to TV shows per platform
+   - Track how content format preferences have evolved over time
+   - Analyze content format trends by country
 
+4. **📆 Releases by Year**
+   - View annual content production trends for each platform
+   - Identify peak years and possible drivers (e.g., platform expansion, global events)
 
+5. **🌍 Country-Specific Insights**
+   - Explore top content-producing countries for each platform
+   - Analyze how country of origin affects genre, format, and ratings
+
+6. **📌 Platform Comparison**
+   - Identify platform strengths and niche content areas
+   - Compare strategic differences in content curation and regional targeting
+
+## 📈 Power BI Dashboard
+
+The Power BI dashboard provides interactive insights into:
+
+- 🔍 Content type distribution (movies vs. TV shows)
+- 🌐 Regional content trends and comparisons
+- 📊 Ratings and genre heatmaps
+- 📅 Release year timelines and patterns
+- 📽️ Platform-specific strengths in genre and audience targeting
+
+## 🧑‍💻 Skills Demonstrated
+
+- **SQL & Data Cleaning**: Prepared structured datasets for visualization.
+- **Power BI**: Created slicers, charts, and dynamic visuals for comparative analysis.
+- **Data Analysis**: Explored multi-dimensional OTT data for trend identification.
+- **Storytelling with Data**: Conveyed business-relevant insights clearly and visually.
+
+## 💡 Business Impact & Applications
+
+This project supports decisions and strategies for:
+
+- 🎬 **Content Creators**: Identify content gaps and popular formats for production.
+- 📺 **OTT Strategists**: Optimize content libraries based on audience and regional trends.
+- 📣 **Marketers**: Align campaigns with genre, region, and rating trends.
+- 📈 **Data Analysts & Researchers**: Understand evolving digital media patterns.
+
+---
+
+Feel free to explore the project and contribute! ✨
